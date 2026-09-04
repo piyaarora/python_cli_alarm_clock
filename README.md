@@ -72,14 +72,6 @@ system alert sound when available, prints a banner, and prompts:
 [Enter] dismiss, [s] snooze 5 min:
 ```
 
-## Tests
-
-```bash
-python3 test_alarm_clock.py -v
-```
-
-Covers time-string validation and the JSON save/load round trip.
-
 ## Requirements
 
 Python 3.9+, standard library only — no `pip install` needed.
